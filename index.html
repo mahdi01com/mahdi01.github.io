@@ -11,7 +11,7 @@
 
     <script type="text/javascript">
     function displayContents() {
-        $.get('http://mahdi01.com/admin/URL.txt', function(data) {
+        $.get('http://mahdi01.com/YouTubeLink.txt', function(data) {
         data = data.replace(/(?:http:\/\/)?(?:www\.)?(?:youtube\.com|youtu\.be)\/(?:watch\?v=)?(.+)/g, 'www.youtube.com/embed/$1');
         $('#yt').attr('src', data)
     }, 'text');
