@@ -7,14 +7,25 @@
     <title>Al-Mahdi Main</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+    function displayContents() {
+        $.get('http://mahdi01.com/admin/URL.txt', function(data) {
+        data = data.replace(/(?:http:\/\/)?(?:www\.)?(?:youtube\.com|youtu\.be)\/(?:watch\?v=)?(.+)/g, 'www.youtube.com/embed/$1');
+        $('#yt').attr('src', data)
+    }, 'text');
+    }    
+    </script>
 </head>
 
-<body style="background-color: #2f3640;">
-    <h1 class="text-center text-light" style="padding: 5px;">يبدأ البث الساعة 8:00م</h1>
+<body style="background-color: #2f3640;" onload = "displayContents();">
+    <h1 class="text-center text-light" style="padding: 5px;">اللهم صل على محمد وآل محمد</h1>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
-    <iframe style="margin: auto; width: auto;" src="https://www.youtube.com/embed/Jz6TEkR7RQs?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe id="yt" style="margin: auto; width: auto;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 </body>
 
 </html>
