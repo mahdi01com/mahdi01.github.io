@@ -9,8 +9,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
     function displayContents() {
-        $.get('http://mahdi01.com/YouTubeLink.txt', function(data) {
-        data = data.replace('/(?:http:\/\/)?(?:www\.)?(?:youtube\.com|youtu\.be)\/(?:watch\?v=)?(.+)/g', 'www.youtube.com/embed/$1');
+        $.get('http://mahdi01.com/Link', function(data) {
+        data = data.replace(/(?:http:\/\/)?(?:www\.)?(?:youtube\.com|youtu\.be)\/(?:watch\?v=)?(.+)/g, 'www.youtube.com/embed/$1');
         $('#yt').attr('src', data)
     }, 'text');
     }    
