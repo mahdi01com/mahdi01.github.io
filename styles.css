@@ -1,1 +1,58 @@
-.social a {margin: 0.6rem;transition: 0.5s ease;height: 15vw;width: 15vw;max-width: 6rem;max-height: 6rem;display: inline-block;}.social a:hover {cursor: pointer;}.social a svg {height: 100%;width: 100%;fill: white;}.social .badges a {border-radius: 1rem;}.round {border-radius: 50%;}.rounded {border-radius: 20%;}.amazon {background: #383940;}.amazon:focus, .amazon:hover {background: #202125;}.amazon .amz-arrow {fill: #fd9a00;}.amazon .amz-a {fill: #231f20;}.app-store {background: #383940;}.app-store:focus, .app-store:hover {background: #202125;}.behance {background: #1769ff;}.behance:focus, .behance:hover {background: #0050e3;}.buffer {background: #333333;}.buffer:focus, .buffer:hover {background: #1a1a1a;}.codepen {background: #383940;}.codepen:focus, .codepen:hover {background: #202125;}.dribbble {background: #ea4c89;}.dribbble:focus, .dribbble:hover {background: #e51e6b;}.facebook {background: #3b5998;}.facebook:focus, .facebook:hover {background: #2d4373;}.flickr {background: #e6e6e6;}.flickr:focus, .flickr:hover {background: #cccccc;}.flickr .flickr-blue {fill: #256DD9;}.flickr .flickr-pink {fill: #FE0084;}.generic {background: #383940;}.generic:focus, .generic:hover {background: #202125;}.github {background: #383940;}.github:focus, .github:hover {background: #202125;}.google-play {background: #383940;}.google-play:focus, .google-play:hover {background: #202125;}.google-plus {background: #dd4b39;}.google-plus:focus, .google-plus:hover {background: #c23321;}.instagram {background: #383940;}.instagram:focus, .instagram:hover {background: #202125;}.linkedin {background: #007bb6;}.linkedin:focus, .linkedin:hover {background: #005983;}.medium {background: #383940;}.medium:focus, .medium:hover {background: #202125;}.pinterest {background: #bd081c;}.pinterest:focus, .pinterest:hover {background: #8c0615;}.reddit {background: #cee3f8;}.reddit:focus, .reddit:hover {background: #a1c9f2;}.reddit svg {stroke-width: 18;stroke: #383940;}.reddit svg.alt {stroke-width: 21;}.reddit svg:focus svg, .reddit svg:hover svg {stroke: #202125;}.reddit svg .reddit-eyes {fill: #f04a22;stroke-width: 0;}.reddit svg .reddit-line {stroke-linecap: round;fill: none;stroke-linejoin: round;}.rss {background: #D95B29;}.rss:focus, .rss:hover {background: #b0481f;}.snapchat {background: #f7ec1e;}.snapchat:focus, .snapchat:hover {background: #dad008;}.snapchat svg {stroke-width: 13;stroke: #25262a;}.soundcloud {background: #ff6000;}.soundcloud:focus, .soundcloud:hover {background: #cc4d00;}.spotify {background: #2ebd59;}.spotify:focus, .spotify:hover {background: #249446;}.tumblr {background: #36465D;}.tumblr:focus, .tumblr:hover {background: #232e3d;}.twitter {background: #55acee;}.twitter:focus, .twitter:hover {background: #2795e9;}.vine {background: #00B289;}.vine:focus, .vine:hover {background: #007f62;}.vk {background: #4D76A4;}.vk:focus, .vk:hover {background: #3d5d81;}.whatsapp {background: #25D366;}.whatsapp:focus, .whatsapp:hover {background: #1da851;}.youtube {background: #cd201f;}.youtube:focus, .youtube:hover {background: #a11918;}.social .app-store {width: 50.625vw;max-width: 20.25rem;}.social .google-play {width: 50.625vw;max-width: 20.25rem;}body {padding: 3vw;text-align: center;font-size: 0;margin: 0 auto;max-width: 80rem;}p {color: #383940;font-size: 0.8rem;margin: 1rem 0;line-height: 1.6;font-family: Roboto Mono;font-weight: 300;}p a {text-decoration: none;color: #55acee;}.divider {padding-top: 2rem;}
+.social a {
+	margin: 0.6rem;
+	transition: 0.5s ease;
+	height: 8vw;
+	width: 8vw;
+	max-width: 3rem;
+	max-height: 3rem;
+	display: inline-block;
+}
+.social a:hover {
+	cursor: pointer;
+}
+.social a svg {
+	height: 50%;
+	width: 50%;
+	fill: white;
+}
+.social .badges a {
+	border-radius: 1rem;
+}
+.round {
+	border-radius: 50%;
+}
+.rounded {
+	border-radius: 20%;
+}
+.facebook {
+	background: #3b5998;
+}
+.facebook:focus,
+.facebook:hover {
+	background: #2d4373;
+}
+.snapchat {
+	background: #f7ec1e;
+}
+.snapchat:focus,
+.snapchat:hover {
+	background: #dad008;
+}
+.snapchat svg {
+	stroke-width: 13;
+	stroke: #25262a;
+}
+.whatsapp {
+	background: #25d366;
+}
+.whatsapp:focus,
+.whatsapp:hover {
+	background: #1da851;
+}
+.youtube {
+	background: #cd201f;
+}
+.youtube:focus,
+.youtube:hover {
+	background: #a11918;
+}
