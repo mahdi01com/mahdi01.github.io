@@ -1,114 +1,51 @@
 <!DOCTYPE html>
-<html lang="ar">
-	<head>
-		<title>لجنة الإمام المهدي</title>
-		<link rel="stylesheet" href="styles.css" />
-	</head>
-	<body onload="load_url();">
-		<div
-			class="video-wrap"
-			style="
-				position: relative;
-				padding-bottom: 56.25%;
-				padding-top: 25px;
-				height: 0;
-				max-width: 1920px;
-				margin: 0 auto;
-			"
-		>
-			<iframe
-				width="560"
-				height="315"
-				style="
-					position: absolute;
-					top: 0;
-					left: 0;
-					width: 100%;
-					height: 100%;
-					max-height: 1080px;
-				"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen
-			></iframe>
-		</div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
 
-		<div class="social no-bg">
-			<a
-				class="rounded instagram"
-				target="_blank"
-				href="https://instagram.com/imahdi14"
-			>
-				<svg viewBox="0 0 800 800">
-					<path
-						d="M150 400c0-119 0-166 42-208s88-42 208-42 166 0 208 42 42 89 42 208 0 166-42 208-88 42-208 42-166 0-208-42-42-89-42-208zm455 0c0-114 0-148-29-176-29-29-62-29-176-29s-148 0-176 29c-29 29-29 62-29 176s0 148 29 176c29 29 62 29 176 29s148 0 176-29c29-29 29-62 29-176zM400 272a128 128 0 1 1 0 256 128 128 0 0 1 0-256zm0 211c46 0 83-37 83-83s-37-83-83-83-83 37-83 83 37 83 83 83zm163-216c0 16-13 30-30 30-16 0-30-14-30-30 0-17 14-30 30-30 17 0 30 13 30 30z"
-					/>
-				</svg>
-			</a>
-			<a
-				class="rounded snapchat"
-				target="_blank"
-				href="https://snapchat.com/add/imahdi14"
-			>
-				<svg viewBox="0 0 800 800">
-					<path
-						d="M400 152c-23 0-98 6-133 83-14 30-7 82-5 122-14 14-38-3-48-3-20 0-39 21 1 36 21 8 55 16 39 49-2 3-36 79-112 94-10 2-9 25 63 34 8 1 6 35 17 35s23-5 42-5c65 0 68 50 136 50s71-50 136-50c19 0 31 5 42 5s9-34 17-35c72-9 73-32 63-34-76-15-110-91-112-94-16-33 18-41 39-49 40-15 21-36 1-36-10 0-34 17-48 3 2-40 9-92-5-122-35-77-110-83-133-83z"
-					/>
-				</svg>
-			</a>
-			<a
-				class="rounded whatsapp"
-				target="_blank"
-				href="https://wa.me/966544564694"
-			>
-				<svg viewBox="0 0 800 800">
-					<path
-						d="M519 454c4 2 7 10-1 31-6 16-33 29-49 29-96 0-189-113-189-167 0-26 9-39 18-48 8-9 14-10 18-10h12c4 0 9 0 13 10l19 44c5 11-9 25-15 31-3 3-6 7-2 13 25 39 41 51 81 71 6 3 10 1 13-2l19-24c5-6 9-4 13-2zM401 200c-110 0-199 90-199 199 0 68 35 113 35 113l-20 74 76-20s42 32 108 32c110 0 199-89 199-199 0-111-89-199-199-199zm0-40c133 0 239 108 239 239 0 132-108 239-239 239-67 0-114-29-114-29l-127 33 34-124s-32-49-32-119c0-131 108-239 239-239z"
-					/>
-				</svg>
-			</a>
-			<a
-				class="rounded facebook"
-				target="_blank"
-				href="https://www.facebook.com/%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D9%87%D8%AF%D9%8A-%D8%A8%D8%B3%D9%8A%D9%87%D8%A7%D8%AA-159218297440290/"
-			>
-				<svg viewBox="0 0 800 800">
-					<path
-						d="M445 643h-90V419h-75v-87h75v-64q0-55 32-86 30-29 80-29 28 0 67 3v78h-47q-42 0-42 38v60h86l-11 87h-75v224z"
-					/>
-				</svg>
-			</a>
-			<a
-				class="rounded youtube"
-				target="_black"
-				href="https://www.youtube.com/user/abolfadlalabss"
-			>
-				<svg viewBox="0 0 800 800">
-					<path
-						d="M400 224c144 0 201 2 224 25 17 17 26 52.125 26 151s-9 134-26 151c-23 23-80 25-224 25s-201-2-224-25c-17-17-26-52.125-26-151s9-134 26-151c23-23 80-25 224-25zm-52 100v141l135-70z"
-					/>
-				</svg>
-			</a>
-		</div>
+    </style>
+</head>
+<body style="display: flex; flex-direction: column; padding: 1rem; height: 100dvh; width: 100dvw; gap: 0.5rem;">
+    <iframe
+        id="video"
+        width="560"
+        height="315"
+        style="
+            width: 100%;
+            flex: 1;
+            aspect-ratio: 16/9;
+        "
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+    ></iframe>
 
-		<script type="text/javascript">
-			function load_url(url) {
-				const http = new XMLHttpRequest()
-				http.onreadystatechange = function () {
-					const reg = http.response.match('v=([a-zA-Z0-9_-]+)&?')
-					const vid = reg ? reg : http.response
-					if (http.readyState == 4) {
-						document
-							.getElementsByTagName('iframe')[0]
-							.setAttribute(
-								'src',
-								'https://www.youtube-nocookie.com/embed/' + vid + '?controls=0'
-							)
-					}
-				}
-				http.open('GET', 'https://mahdi01.com/link.txt', true)
-				http.send()
-			}
-		</script>
-	</body>
+    <section style="display: flex; gap: 0.5rem; padding: 0.5rem 1rem; align-items: center; margin: 0 auto;">
+        <a href="https://www.youtube.com/user/abolfadlalabss">
+            <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" fill="#000000" viewBox="0 0 256 256"><path d="M164.44,121.34l-48-32A8,8,0,0,0,104,96v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,145.05V111l25.58,17ZM234.33,69.52a24,24,0,0,0-14.49-16.4C185.56,39.88,131,40,128,40s-57.56-.12-91.84,13.12a24,24,0,0,0-14.49,16.4C19.08,79.5,16,97.74,16,128s3.08,48.5,5.67,58.48a24,24,0,0,0,14.49,16.41C69,215.56,120.4,216,127.34,216h1.32c6.94,0,58.37-.44,91.18-13.11a24,24,0,0,0,14.49-16.41c2.59-10,5.67-28.22,5.67-58.48S236.92,79.5,234.33,69.52Zm-15.49,113a8,8,0,0,1-4.77,5.49c-31.65,12.22-85.48,12-86,12H128c-.54,0-54.33.2-86-12a8,8,0,0,1-4.77-5.49C34.8,173.39,32,156.57,32,128s2.8-45.39,5.16-54.47A8,8,0,0,1,41.93,68c30.52-11.79,81.66-12,85.85-12h.27c.54,0,54.38-.18,86,12a8,8,0,0,1,4.77,5.49C221.2,82.61,224,99.43,224,128S221.2,173.39,218.84,182.47Z"></path></svg>
+        </a>
+        <a href="https://instagram.com/imahdi14">
+            <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" fill="#000000" viewBox="0 0 256 256"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path></svg>
+        </a>
+        <a href="https://wa.me/966544564694">
+            <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" fill="#000000" viewBox="0 0 256 256"><path d="M187.58,144.84l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88,40,40,0,0,0,40-40A8,8,0,0,0,187.58,144.84ZM152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23L101,118a8,8,0,0,0-.73,7.51,56.47,56.47,0,0,0,30.15,30.15A8,8,0,0,0,138,155l14.61-9.74,23,11.48A24,24,0,0,1,152,176ZM128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24Zm0,192a87.87,87.87,0,0,1-44.06-11.81,8,8,0,0,0-6.54-.67L40,216,52.47,178.6a8,8,0,0,0-.66-6.54A88,88,0,1,1,128,216Z"></path></svg>
+        </a>
+    </section>
+
+    <script>
+        
+        async function setUrl() {
+            const currentUrl = await fetch('https://mahdi01.com/link.txt').then(r => r.text())
+            const url = currentUrl.match(/(youtu\.be\/|youtube\.com\/(watch\?(.*&)?v=|(embed|v)\/))([^\?&"'>]+)/)?.[5] || currentUrl
+            
+            document
+                .getElementById('video')
+                .setAttribute('src', `https://www.youtube-nocookie.com/embed/${url}?controls=0`)
+        }
+        setUrl()
+    </script>
+</body>
 </html>
